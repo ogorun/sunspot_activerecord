@@ -20,4 +20,5 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.add_dependency 'sunspot'
   s.add_dependency 'activerecord', "~> 2.3.8"
+  s.add_development_dependency 'rspec', '~> 1.2'
 end
