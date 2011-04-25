@@ -1,0 +1,9 @@
+sunspot_activerecord is simplified (just reduced) version of sunspot_rails gem (see http://outoftime.github.com/sunspot/) to enable usage of sunspot+active_record -based models in not Rails projects. 
+
+Like original sunspot_rails gem it provides sunspot adapters for activerecord, expands ActiveRecord::Base class with method searchable, that configures Sunspot to index specific model and adds some methods for work with sunspot.
+
+Main difference: sunspot_activerecord doesn't make assumptions about request processing specifity (no ActionController work) and doesn't provide bulk operations at the end of request cycle. That's why in default configuration it indexes and commit model changes on every suitable change.
+
+Current version doesn't include also sunspot server and session configuration.
+
+
