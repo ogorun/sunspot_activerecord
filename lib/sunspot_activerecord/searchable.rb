@@ -126,7 +126,7 @@ module SunspotActiveRecord #:nodoc:
       #
       # ==== Options
       #
-      # :include:: Specify associations to eager load
+      # :include :: Specify associations to eager load
       # :select:: Specify columns to select from database when loading results
       #
       # ==== Returns
